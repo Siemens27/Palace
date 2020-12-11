@@ -1,0 +1,33 @@
+@import "../fonts/montserrat/stylesheet.css";
+@import "../libs/owlCarousel-2/assets/owl.carousel.min.css";
+@import "../libs/owlCarousel-2/assets/owl.theme.default.min.css";
+@import "../libs/fancy-box/jquery.fancybox.min.css";
+@import "../libs/icon/all.css";
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Montserrat' , sans-serif;
+}
+
+@import "header";
+@import "slider";
+@import "about";
+@import "gallery";
+@import "more";
+@import "form";
+@import "instagram";
+@import "up";
+@import "overlay";
+@import "media";
+
+
+
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}

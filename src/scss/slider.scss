@@ -1,0 +1,79 @@
+.slider{
+  padding: 81px 0 124px;
+  .owl-carousel{
+    &__slider{
+      position: relative;
+      cursor: pointer;
+      .owl-carousel-block{
+        background: rgba(209, 169, 84, 0.9);
+        width: 100%;
+        padding: 15px 15px;
+        text-align: center;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        .owl-carousel__border{
+          border: 1px solid rgba(255, 255, 255, 0.5);
+          box-sizing: border-box;
+          padding: 10px 0 15px;
+        }
+        &__title{
+          color: #FFFFFF;
+          font-size: 25px;
+          font-weight: normal;
+          text-transform: uppercase;
+          margin-bottom: 8px;
+          line-height: 37px;
+        }
+        &__subtitle{
+          color: #FFFFFF;
+          font-size: 14px;
+          font-weight: normal;
+        }
+      }
+    }
+  }
+  .owl-nav{
+    position: relative;
+    cursor: pointer;
+    .customPrev, .customNext{
+      width: 50px;
+      height: 50px;
+      position: absolute;
+      top: 60px;
+    }
+    .customPrev{
+      position: absolute;
+      background: url("../image/slider/left.png")  no-repeat;
+      left: 40%;
+
+
+    }
+    .customNext{
+      right: 40%;
+      background: url("../image/slider/right.png") 43px 0 no-repeat;
+    }
+  }
+}
+.owl-dots{
+  position: absolute;
+  bottom: -70px;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border-radius: none;
+}
+
+.owl-dot {
+  outline: none;
+}
+
+.owl-dot span {
+  width: 30px !important;
+  height: 2px !important;
+  background: #ccc !important;
+  margin: 0 !important;
+}
+
+.owl-dot.active span {
+  background: #000 !important;
+}
